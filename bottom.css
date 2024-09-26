@@ -1,0 +1,55 @@
+.icon-container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 20px auto;
+    background-color: #000000;
+    padding: 15px 10px 0 0;
+    cursor: pointer;
+}
+.icon a{
+    text-decoration: none; 
+    color: white;
+}
+
+.icon {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.icon span {
+    display: block;
+    margin: 0 auto 5px auto;
+    width: 24px;
+    height: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 100px;
+    background-color: #00000098;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding-top: 25px;
+    z-index: 1000;
+}
+.BOTOMEBUTTON{
+    margin-left: -105px;
+}
+@media(min-width:425px){
+    .BOTOMEBUTTON{
+        margin-left: -180px;
+    }
+}
+
